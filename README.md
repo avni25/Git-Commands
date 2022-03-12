@@ -6,6 +6,8 @@ inside .gitconfig file add: <br />
 [alias] <br />
     acp = "!f() { git add -A && git commit -m \\"$@\\" && git push; }; f" <br />
 
+and on command line: git acp "message" <br />
+
 ### Getting & Creating Projects
 
 | Command | Description |
