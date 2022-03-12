@@ -1,19 +1,10 @@
 Git Commands
 ============
 
-## Translated Versions
-- [Versão em português](READMEpt.md)
-- [Versión en español](READMEes.md)
-- [Türkçe versiyon](READMEtr.md)
-- [বাংলা সংস্করণ](READMEbn.md)
-
-___
-
-_A list of my commonly used Git commands_
-
-*If you are interested in my Git aliases, have a look at my `.bash_profile`, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
-
---
+###to wrap add, push commit: <br />
+inside .gitconfig file add: <br />
+[alias] <br />
+    acp = "!f() { git add -A && git commit -m \\"$@\\" && git push; }; f" <br />
 
 ### Getting & Creating Projects
 
